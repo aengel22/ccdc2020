@@ -1,0 +1,6 @@
+Windows -
+msiexec /i splunkforwarder-7.1.2-a0c72a66db66-x64-release.msi LAUNCHSPLUNK=1 DEPLOYMENT_SERVER=deployment.splunk.uic.edu:8089 AGREETOLICENSE=Yes SERVICESTARTTYPE=auto WINEVENTLOG_APP_ENABLE=1 WINEVENTLOG_SEC_ENABLE=1 WINEVENTLOG_SYS_ENABLE=1 WINEVENTLOG_FWD_ENABLE=1 WINEVENTLOG_SET_ENABLE=1 SPLUNKPASSWORD=password /l*v c:\windows\temp\splunkUF.log /quiet
+Linux Red Hat-
+wget -O splunkforwarder-8.0.0-1357bef0a7f6-linux-2.6-x86_64.rpm 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.0&product=universalforwarder&filename=splunkforwarder-8.0.0-1357bef0a7f6-linux-2.6-x86_64.rpm&wget=true
+Linux Deb -
+wget -O splunkforwarder-8.0.0-1357bef0a7f6-linux-2.6-amd64.deb 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.0&product=universalforwarder&filename=splunkforwarder-8.0.0-1357bef0a7f6-linux-2.6-amd
